@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: airbnb
+    database: AIRBNB
+    schema: RAW
+    tables:
+        - name: sales
+          identifier: sales_us
